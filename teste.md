@@ -16,7 +16,7 @@ Neste teste, os candidatos deverão realizar uma análise de dados simples relac
 
 - Qual é a média de conversões por tipo de criativo?
   
-- Quais são os tipos de criativo mais eficazes em termos de conversões?
+- Quais são os tipos de criativos mais eficazes em termos de conversões?
 
 - Existe uma tendência sazonal nas conversões?
 
