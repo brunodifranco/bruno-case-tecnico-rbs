@@ -1,4 +1,5 @@
 from pandas.core.series import Series
+from pandas.core.frame import DataFrame
 from plotly.graph_objs._figure import Figure
 
 def adf_test(data: Series, 
@@ -79,3 +80,42 @@ def teste_espectro_fourier(data: Series,
     fig.update_layout(height=650, width=1000, title_text=f"Espectro de Frequencia com Transformada de Fourier para 1, 7, 15 e 30 dias - {tipo}")
    
     return fig
+
+def intervalo_interquartil(df: DataFrame,
+                           col: str,
+                           multiplicador: float = 1.5) -> DataFrame:
+    """   
+        Calcula os intervalos interquartis dos dados e retorna um DataFrame com os possíveis outliers.
+
+        Parameters
+        ----------
+        df : pandas.core.frame.DataFrame
+            DataFrame no qual o intervalo será aplicado.
+
+        col : str
+            Nome da coluna desejada para o teste.   
+
+        multiplicador : float, default = 1.5
+            Limite dos quartis.
+
+        Returns
+        -------
+        outliers_df : pandas.core.frame.DataFrame
+            DataFrame com os possíveis outliers.
+    
+    """ 
+
+    data = df[col]
+
+    Q1 = data.quantile(0.25)
+    Q3 = data.quantile(0.75)
+    IQR = Q3 - Q1
+
+    limite_inferior = Q1 - multiplicador * IQR
+    limite_superior = Q3 + multiplicador * IQR
+
+    outliers_index = data[(data < limite_inferior) | (data > limite_superior)].index
+
+    outliers_df = df.loc[outliers_index]
+
+    return outliers_df
