@@ -76,6 +76,6 @@ def teste_espectro_fourier(data: Series,
         df_fft = pd.DataFrame({'freq': freqs, 'amplitude': amplitudes})
         fig.add_trace(go.Scatter(x=df_fft['freq'].values, y=df_fft['amplitude'].values), row=i // 2 + 1, col=i % 2 + 1)
 
-    fig.update_layout(height=650, width=1000, title_text=f"Espectro de Frequência com Transformada de Fourier para 1, 7, 15 e 30 dias - {tipo}")
+    fig.update_layout(height=650, width=1000, title_text=f"Espectro de Frequencia com Transformada de Fourier para 1, 7, 15 e 30 dias - {tipo}")
    
     return fig
