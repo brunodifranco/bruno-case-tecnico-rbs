@@ -162,6 +162,8 @@ No app do Streamlit é possível visualizar:
 </div>
 
 
+*Obs: O repositório com o código do App está [aqui](https://github.com/brunodifranco/streamlit-app-rbs-analista-dados).*
+
 # 4. **Recomendações**
 
 <div align="center">
