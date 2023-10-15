@@ -22,9 +22,7 @@ Neste teste, os candidatos deverão realizar uma análise de dados simples relac
 
 - Há algum outlier nos dados que mereça atenção?
 
-
 3) Visualização de Dados: Os candidatos devem criar pelo menos duas visualizações relevantes para a análise das campanhas publicitárias. As visualizações podem incluir gráficos de barras, gráficos de dispersão, gráficos de linhas, etc. Eles devem garantir que as visualizações sejam informativas e fáceis de entender.
-
 
 4) Recomendações: Com base na análise dos dados e nas visualizações criadas, os candidatos devem elaborar um breve relatório (pode ser um documento de texto) com recomendações claras para a equipe. Isso pode incluir sugestões sobre a alocação de recursos para canais específicos, otimização de campanhas sazonais, etc.
 
