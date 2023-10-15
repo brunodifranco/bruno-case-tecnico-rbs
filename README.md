@@ -1,9 +1,9 @@
 
 <h1 align="center">Análise de Dados e Visualização para Tomada de Decisões em Publicidade</h1>
 
-<p align="center">Teste Técnico - Analista de Dados Jr - RBS</p>
+<h3 align="center">Teste Técnico - Analista de Dados Jr - RBS</h3>
 
-<p align="center">Bruno Di Franco Albuquerque</p>
+<h3 align="center">Bruno Di Franco Albuquerque</h3>
 
 <p align="center">
   <img src="pic/logo.png" width="200"/>
@@ -156,7 +156,7 @@ No app do Streamlit é possível visualizar:
   
 <div align="center">
 
-|         **Clique abaixo para acessar o App:**        |
+|         **Clique abaixo para acessar o App**        |
 |:------------------------:|
 |         [![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://bruno-di-franco-rbs-dataviz-app.streamlit.app/)
 </div>
@@ -164,4 +164,9 @@ No app do Streamlit é possível visualizar:
 
 # 4. **Recomendações**
 
-As recomendações estão [nesse](https://docs.google.com/document/d/1Q0-pwATZkMRp77GxQRD8DQ49AUdYC0zYzgYKmtFT-sE/edit?usp=sharing) Google Docs.
+<div align="center">
+
+|         **Clique abaixo para acessar o Relatório de Recomendações**        |
+|:------------------------:|
+|        [![Docs](https://www.google.com/images/about/docs-icon.svg)](https://docs.google.com/document/d/1Q0-pwATZkMRp77GxQRD8DQ49AUdYC0zYzgYKmtFT-sE/edit?usp=sharing)
+</div>
